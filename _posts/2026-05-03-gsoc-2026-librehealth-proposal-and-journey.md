@@ -19,8 +19,8 @@ This week is focused on introduction and community bonding, and from next week o
 
 ## Project and Proposal Links
 
-- GSoC project page: https://summerofcode.withgoogle.com/programs/2026/projects/B0KA82Dk
-- My proposal document: https://docs.google.com/document/d/1I5sRWOgVAVXrngw1tDmfLBB3a2Mii-7JO-Jx2vfKupk/edit?tab=t.0#heading=h.k6khlm53pps0
+- GSoC project page: [https://summerofcode.withgoogle.com/programs/2026/projects/B0KA82Dk](https://summerofcode.withgoogle.com/programs/2026/projects/B0KA82Dk)
+- My proposal document: [https://docs.google.com/document/d/1I5sRWOgVAVXrngw1tDmfLBB3a2Mii-7JO-Jx2vfKupk/edit?tab=t.0#heading=h.k6khlm53pps0](https://docs.google.com/document/d/1I5sRWOgVAVXrngw1tDmfLBB3a2Mii-7JO-Jx2vfKupk/edit?tab=t.0#heading=h.k6khlm53pps0)
 
 ## Week 0: Introduction
 
