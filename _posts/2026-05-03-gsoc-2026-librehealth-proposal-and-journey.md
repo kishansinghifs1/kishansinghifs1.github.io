@@ -3,9 +3,6 @@ title: "Embarking on GSoC 2026: LibreHealth & My Journey"
 date: 2026-05-03 23:55:00 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, security, open-source, devsecops]
-image:
-  path: /assets/img/unnamed.png
-  alt: Kishan Singh Profile Picture
 ---
 
 <style>

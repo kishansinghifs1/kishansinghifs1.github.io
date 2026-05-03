@@ -128,7 +128,7 @@ html[data-mode="light"] {
   <p>Software Engineer | Open Source Contributor</p>
 </div>
 
-## 👨‍💻 About Me (Resume)
+## 👨‍💻 About Me : 
 
 <div class="luxury-card">
   <h3>Education</h3>
