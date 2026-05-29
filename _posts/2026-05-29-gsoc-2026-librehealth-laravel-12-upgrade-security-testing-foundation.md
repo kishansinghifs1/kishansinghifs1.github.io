@@ -1,6 +1,6 @@
 ---
-title: "GSoC 2026: Laravel 12 Upgrade and Security Testing Foundation"
-date: 2026-05-29 22:08:00 +0530
+title: "GSoC 2026 Week 1: Laravel 12 Upgrade and Security Testing Foundation"
+date: 2026-05-29 23:55:00 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, laravel, php, security, testing]
 image:
@@ -8,9 +8,9 @@ image:
   alt: GSoC Week 1 - Laravel 12 upgrade and security testing foundation update
 ---
 
-This week, I focused on two important areas of the LibreHealth EHR Laravel project: first is upgrading the application to a modern Laravel and PHP stack, and second is building the foundation for MU security testing.
+This week, I focused on two important areas of the LibreHealth EHR Laravel project. First is upgrading the application to a modern Laravel and PHP stack, and second is building the foundation for MU security testing.
 
-I raised two merge requests this week:
+I raised two merge requests this week.
 
 - [MR !25: Laravel 12 upgrade](https://gitlab.com/librehealth/ehr/lh-ehr-laravel/-/merge_requests/25) - merged
 - [MR !26: Security testing foundation](https://gitlab.com/librehealth/ehr/lh-ehr-laravel/-/merge_requests/26) - pending review
