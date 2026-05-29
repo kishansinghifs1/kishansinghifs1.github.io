@@ -5,7 +5,7 @@ categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, security, open-source, devsecops]
 image:
   path: /assets/img/posts/gsoc-week0-banner.svg
-  alt: GSoC Week 0 introduction and bonding update
+  alt: GSoC Week 0  - Introduction and bonding update
 ---
 
 Welcome to my journey! This is the very first entry of my Google Summer of Code (GSoC) 2026 experience.
