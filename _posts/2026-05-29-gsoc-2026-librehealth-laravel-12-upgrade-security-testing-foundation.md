@@ -1,6 +1,6 @@
 ---
 title: "GSoC 2026 Week 1: Laravel 12 Upgrade and Security Testing Foundation"
-date: 2026-05-29 23:55:00 +0530
+date: 2026-05-29 23:24:00 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, laravel, php, security, testing]
 image:
@@ -32,24 +32,8 @@ The second major task I did this week was to build the foundation for security t
 
 The security testing architecture was built on three main components:
 
-```text
-+--------------------------------------------------------------+
-| 1. SecurityTestSeeder                                        |
-|    Creates realistic test users with multiple roles and date |
-+------------------------------+-------------------------------+
-                               |
-                               v
-+--------------------------------------------------------------+
-| 2. SecurityTestCase                                          |
-|    Prepares a clean test database , it will be inherited by the other MU testcases later.    |
-+------------------------------+-------------------------------+
-                               |
-                               v
-+--------------------------------------------------------------+
-| 3. SecurityTestFoundation                                    |
-|    Verifies that roles, login, and database is completely ready for the testing. |
-+--------------------------------------------------------------+
-```
+![Security Testing Architecture](/assets/img/posts/security-test-foundation.png)
+
 
 ## SecurityTestSeeder
 
