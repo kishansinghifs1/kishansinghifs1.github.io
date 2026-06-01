@@ -19,7 +19,7 @@ I raised two merge requests this week.
 
 Before starting the actual project the first essential thing that was needed to be done was migrating from Laravel 9 to Laravel 12 and aligning it together with PHP 8.3.
 
-The best part was I upgraded it to Laravel 12 with almost no changes in the main code. I actually went deep removed the deprecated package and I ran the artisan commands to check for any cascading effects on the codebase and then resolved all issues by debugging into it. 
+The best part was I upgraded it to Laravel 12 with almost no changes in the main code. I actually went deep removed the deprecated packages and I ran the artisan commands to check for any cascading effects on the codebase. If I encountered any issues I resolved it by debugging majorly into it. 
 
 Some packages were deprecated and we removed it's traces and dependencies and since PHP 8.3 is stricter about method signatures. Some framework-related methods needed explicit return types, so we added `: void` wherever required.
 
