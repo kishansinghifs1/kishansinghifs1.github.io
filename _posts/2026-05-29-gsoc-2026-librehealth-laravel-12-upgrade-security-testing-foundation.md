@@ -21,14 +21,14 @@ Before starting the actual project the first essential thing that was needed to 
 
 The best part was I upgraded it to Laravel 12 with almost no changes in the main code. I actually went deep removed the deprecated packages and I ran the artisan commands to check for any cascading effects on the codebase. If I encountered any issues I resolved it by debugging majorly into it. 
 
-Some packages were deprecated and we removed it's traces and dependencies and since PHP 8.3 is stricter about method signatures. Some framework-related methods needed explicit return types, so we added `: void` wherever required.
+Some packages were deprecated and I removed it's traces and dependencies and since PHP 8.3 is stricter about method signatures. Some framework-related methods needed explicit return types, so we added `: void` wherever required.
 
-And I finally tested the application's all the main workflows by running the every artisan needed to run the server.
+And I finally tested the application's all the main workflows by running the every artisan command needed to run the server with prod flag.
 
 
 ### Building Security Testing Foundation
 
-The second major task I did this week was to build the foundation for security testing. Since it was difficult to use the actual seeded database because seeded database was not design for the security testing hence, we wrote the complete seeder for security test. The above MR is in the same context it was create for laying the foundation that will make the MU security testing easier later.
+The second major task I did this week was to build the foundation for security testing. Since it was difficult to use the actual seeded database because seeded database was not design for the security testing hence, I wrote the complete seeder for security test. The above MR is in the same context it was create for laying the foundation that will make the MU security testing easier later.
 
 The security testing architecture was built on three main components:
 
@@ -39,7 +39,7 @@ The security testing architecture was built on three main components:
 
 `SecurityTestSeeder` creates the fake data in the db for role-based security testing.
 
-It prepares users such as clinicians, receptionists, admins, and patients with realistic permissions. This lets future tests check whether each type of user can access only the routes that they are allowed to use.
+It prepares users such as clinicians, receptionists, admins, and patients with realistic permissions. This will help us in future tests check whether each type of user can access only the routes that they are allowed to use.
 
 ## SecurityTestCase
 
@@ -50,7 +50,7 @@ It handles the common setup work, such as preparing the test database, running t
 
 ## SecurityTestFoundation
 
-`SecurityTestFoundation` it is there for the context of SecurityTestCase to work properly.
+`SecurityTestFoundation` is there for the context of SecurityTestCase to work properly.
 
 It checks that the database is configured correctly, and seeded users can log in, and basic role-based access works at a basic level. 
 
