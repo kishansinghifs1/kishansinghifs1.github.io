@@ -8,7 +8,7 @@ image:
   alt: GSoC Week 3 - CI/CD Pipeline Configuration
 ---
 
-This week, I wasn't able to code much due to my re-exam but still I laid the foundation for the CI/CD pipeline setup for LibreHealth EHR project. The whole setup for the pipeline is done for now, since the project was already on the gitlab so it was easy for the initial setup.
+This week, I wasn't able to code much due to my re-exam but still I laid the foundation for the CI/CD pipeline. The whole setup for the pipeline is done for now, since the project was already on the gitlab so it was easy for the initial setup.
 
 Since we are not sure about the additional runners, we are running the pipeline on gitlab shared runners with docker executor. In future, if we find a need of additional runners we will be adding it later.
 
