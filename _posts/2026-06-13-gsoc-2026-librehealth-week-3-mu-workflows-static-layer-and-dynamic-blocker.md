@@ -49,7 +49,7 @@ I also created the baseline so we can focus first on project completion first an
 
 Along with CI work, you can find the below image for the finalized MU workflow mapping, which is based on the routes and their functionalities I and mua have in depth talking about it and since we already have the initial setup of the security test seeder and security test foundation interface we can inherit and make the MU workflows done and dusted.
 
-![Meaningful Use Workflow Mapping](/assets/img/posts/gsoc-week3-mu-workflow.svg)
+![Meaningful Use Workflow Mapping](/assets/img/posts/gsoc-week3-mu-workflow.svg?v=3){: width="3440" height="920" }
 
 ## Current Blocker: OWASP ZAP Integration
 
