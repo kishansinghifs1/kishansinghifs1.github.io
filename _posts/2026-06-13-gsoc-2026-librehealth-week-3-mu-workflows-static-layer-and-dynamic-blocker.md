@@ -1,6 +1,6 @@
 ---
 title: "GSoC 2026 Week 3: MU Workflows, Static Layer Completion, and Dynamic Layer Blocker"
-date: 2026-06-13 21:30:00 +0530
+date: 2026-06-13 01:15:00 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, laravel, php, ci-cd, security, owasp, zap]
 image:
