@@ -49,9 +49,9 @@ I also created the baseline so we can focus first on project completion first an
 
 Along with CI work, you can find the below image for the finalized MU workflow mapping, which is based on the routes and their functionalities I and mua have in depth talking about it and since we already have the initial setup of the security test seeder and security test foundation interface we can inherit and make the MU workflows done and dusted.
 
-![Meaningful Use Workflow Mapping](/assets/img/posts/gsoc-week4-mu-workflow.svg)
+![Meaningful Use Workflow Mapping](/assets/img/posts/gsoc-week3-mu-workflow.svg)
 
-## Current Blocker: Dynamic Layer
+## Current Blocker: OWASP ZAP Integration
 
 Since OWASP ZAP is bit tricky to integrate it in pipeline, whatever tutorials I found were bit old and not much helpful, Since for SPA applications, the authentication is bit different and in our case we are using the sanctum for authentication, the csfr token management for the spider ajax scanning is pain in the ass, I am still trying to find a way to manage the CSRF token for the spidering and ajax scanning in ZAP, I will be seeking help from Robby O'Connor for this issue.
 
