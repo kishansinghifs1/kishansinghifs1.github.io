@@ -26,7 +26,7 @@ The `build_job` job is there for setting up the environment by pulling up all PH
 
 This stage includes the `static-scanning-lint` job, it is there to have the same lint and formats accross the whole codebase. It performs a PHP syntax check and file formatting accross the entire application ensuring no unformatted code is merged into the repository. 
 
-## Next Steps
+## Next Week
 
 After the current CI/CD pipeline foundation is reviewed and approved by Robby O'Connor, the next week I will do all is to make the static layer completed with addition of phpstan ,larastan and composer audit.
 
