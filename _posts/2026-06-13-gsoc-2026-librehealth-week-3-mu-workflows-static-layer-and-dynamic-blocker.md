@@ -1,17 +1,17 @@
 ---
-title: "GSoC 2026 Week 4: MU Workflows, Static Layer Completion, and Dynamic Layer Blocker"
+title: "GSoC 2026 Week 3: MU Workflows, Static Layer Completion, and Dynamic Layer Blocker"
 date: 2026-06-13 21:30:00 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, laravel, php, ci-cd, security, owasp, zap]
 image:
-  path: /assets/img/posts/gsoc-week4-banner.svg
-  alt: GSoC Week 4 - MU workflows and CI/CD security progress
+  path: /assets/img/posts/gsoc-week3-banner.svg
+  alt: GSoC Week 3 - MU workflows and CI/CD security progress
 ---
 
 This week was actually good, I had my first ever meeting with my mentor Mua Rachmann, there was actually big dilemma with the decision on MU workflows, which was about deciding which routes should I consider for which MU workflow and how to map them. We conluded that for now we would be maintaining the 6 main MU workflows.
 After finalizing the MU workflows, I completed the static layer of the pipeline.
 
-## Week 4 Pipeline Progress
+## Week 3 Pipeline Progress
 
 This week, I completed the static layer of the pipeline.
 

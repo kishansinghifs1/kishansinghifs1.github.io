@@ -1,11 +1,11 @@
 ---
-title: "GSoC 2026 Week 3: CI/CD Pipeline Configuration"
+title: "GSoC 2026 Week 2: CI/CD Pipeline Configuration"
 date: 2026-06-06 09:02:00 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, laravel, php, ci-cd, gitlab]
 image:
-  path: /assets/img/posts/gsoc-week3-banner.svg
-  alt: GSoC Week 3 - CI/CD Pipeline Configuration
+  path: /assets/img/posts/gsoc-week2-banner.svg
+  alt: GSoC Week 2 - CI/CD Pipeline Configuration
 ---
 
 This week, I wasn't able to code much due to my re-exam but still I laid the foundation for the CI/CD pipeline. The whole setup for the pipeline is done for now, since the project was already on the gitlab so it was easy for the initial setup.

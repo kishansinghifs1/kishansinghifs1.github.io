@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">GSoC 2026 LibreHealth Week 4 Banner</title>
-  <desc id="desc">Abstract banner for LibreHealth MU workflows and static scanning completion</desc>
+  <title id="title">GSoC 2026 LibreHealth Week 2 Banner</title>
+  <desc id="desc">Abstract banner for LibreHealth CI/CD pipeline configuration update</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0f172a"/>
@@ -22,12 +22,12 @@
     GSoC 2026 LibreHealth
   </text>
   <text x="140" y="295" fill="url(#accent)" font-size="62" font-family="Segoe UI, Arial, sans-serif" font-weight="700">
-    Week 4 Update
+    Week 2 Update
   </text>
   <text x="140" y="360" fill="#94a3b8" font-size="36" font-family="Segoe UI, Arial, sans-serif" font-weight="500">
-    MU Workflows &amp; Static Scanning
+    CI/CD Pipeline Configuration
   </text>
 
   <rect x="140" y="410" width="420" height="10" rx="5" fill="#334155"/>
-  <rect x="140" y="410" width="340" height="10" rx="5" fill="url(#accent)"/>
+  <rect x="140" y="410" width="300" height="10" rx="5" fill="url(#accent)"/>
 </svg>
