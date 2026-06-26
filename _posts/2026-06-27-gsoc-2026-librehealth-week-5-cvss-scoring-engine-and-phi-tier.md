@@ -1,5 +1,5 @@
 ---
-title: "GSoC 2026 Week 5: Unified CVSS Scoring Engine and Pipeline Integration"
+title: "GSoC 2026 Week 5: CVSS Scoring Engine and Pipeline Integration"
 date: 2026-06-26 23:41:38 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, laravel, php, ci-cd, security, cvss, testing]
