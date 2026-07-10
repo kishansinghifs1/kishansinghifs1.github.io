@@ -12,10 +12,9 @@ The week was kind of hectic as mid term evaluation was close and I wanted my pip
 I also came across some of the vulnerabilites related to the composer, some packages were way too old and therefore I decided to upgrade them.
 And some work related to reducing the job time.
 
-So basically, this week I did two major things:
+So basically, this week I did two major things and raised the PR for the same:
 1. **Dependency upgrades** 
 2. **Completion of Layer 3 in our CI/CD pipeline**
-and raised PR for the same.
 
 Here is a detailed breakdown of what I did this week.
 
