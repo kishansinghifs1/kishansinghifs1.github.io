@@ -1,6 +1,6 @@
 ---
 title: "GSoC 2026 Week 7: Dependency Upgrades & Layer 4 of CI/CD Pipeline"
-date: 2026-07-10 21:00:00 +0530
+date: 2026-07-10 13:39:00 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, laravel, php, ci-cd, security, cvss, dependencies]
 image:
