@@ -7,7 +7,7 @@
     "*.html": "liquid"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   // Formatter
   "[html][liquid]": {
