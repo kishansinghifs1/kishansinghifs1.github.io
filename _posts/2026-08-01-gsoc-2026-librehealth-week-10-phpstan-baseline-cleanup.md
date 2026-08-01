@@ -1,5 +1,5 @@
 ---
-title: "GSoC 2026 Week 10: Single Cleanup Commit & PHPStan Baseline Reduction"
+title: "GSoC 2026 Week 10: PHPStan Baseline Reduction"
 date: 2026-08-01 12:00:00 +0530
 categories: [GSoC 2026, LibreHealth]
 tags: [gsoc, librehealth, laravel, php, phpstan, larastan, refactoring]
