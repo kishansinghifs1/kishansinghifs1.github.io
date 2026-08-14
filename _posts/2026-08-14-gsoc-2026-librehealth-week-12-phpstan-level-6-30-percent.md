@@ -8,7 +8,7 @@ image:
   alt: GSoC Week 12 - PHPStan Level 6 Progress and Error Cleanup
 ---
 
-This week, I moved on to PHPStan Level 6 and started reducing the remaining issues in the baseline. I have completed 30 percent of the Level 6 PHPStan issues so far, and the next step is to keep clearing the rest in a structured way.
+This week, I moved on to PHPStan Level 6 and started reducing the remaining issues in the baseline. I have completed 30 percent of the Level 6 PHPStan issues so far.
 
 ---
 
