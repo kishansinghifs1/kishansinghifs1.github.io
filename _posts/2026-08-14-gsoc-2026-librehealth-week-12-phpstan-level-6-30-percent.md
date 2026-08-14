@@ -14,16 +14,15 @@ This week, I moved on to PHPStan Level 6 and started reducing the remaining issu
 
 ## 1. Level 6 Error Summary
 
-
 While working on PHPStan Level 6, I came across a total of 78 issues. Most of the issues were related to missing type information and Laravel Eloquent relationships.
 
-35 issues – Missing generic types: Added proper type information to Eloquent relationships such as HasMany, BelongsTo, HasOne, MorphMany, and HasFactory.
-28 issues – Missing iterable value types: Added types for arrays so PHPStan knows what kind of values they contain.
-5 issues – Missing parameter types: Added proper type hints to method parameters where they were missing.
-3 issues – Missing return types: Added return type declarations to a few methods.
-4 issues – Unresolvable return types: Fixed cases where PHPStan couldn't determine the return type of Collection::transform() callbacks.
-2 issues – Unreachable code: Removed code that could never be executed after dd() / exit() in PatientAppointmentController.
-1 issue – Template type: Fixed a type-related issue with the morphMany() relationship in the User model.
+1. 35 issues - Missing generic types: Added proper type information to Eloquent relationships such as `HasMany`, `BelongsTo`, `HasOne`, `MorphMany`, and `HasFactory`.
+2. 28 issues - Missing iterable value types: Added types for arrays so PHPStan knows what kind of values they contain.
+3. 5 issues - Missing parameter types: Added proper type hints to method parameters where they were missing.
+4. 3 issues - Missing return types: Added return type declarations to a few methods.
+5. 4 issues - Unresolvable return types: Fixed cases where PHPStan could not determine the return type of `Collection::transform()` callbacks.
+6. 2 issues - Unreachable code: Removed code that could never be executed after `dd()` / `exit()` in `PatientAppointmentController`.
+7. 1 issue - Template type: Fixed a type-related issue with the `morphMany()` relationship in the `User` model.
 
 ---
 
