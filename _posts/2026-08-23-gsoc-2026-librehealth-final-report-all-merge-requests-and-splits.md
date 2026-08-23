@@ -8,7 +8,7 @@ image:
   alt: GSoC 2026 Final Report - Final Work Done
 ---
 
-This is the final blog of my Google Summer of Code 2026 journey with LibreHealth. It feel weird to write the last one, but yup we are wrapping up. Over the last twelve weeks I worked on upgrading the LibreHealth EHR Laravel stack, building a security testing foundation, setting up the CI/CD security pipeline, writing Meaningful Use workflow tests, fixing vulnerabilities, and cleaning up the PHPStan baseline.
+This is the final blog of my Google Summer of Code 2026 journey with LibreHealth. We are finally wrapping up. Over the last twelve weeks I worked on upgrading the LibreHealth EHR Laravel stack, building a security testing foundation, setting up the CI/CD security pipeline, writing Meaningful Use workflow tests, fixing vulnerabilities, and cleaning up the PHPStan baseline.
 
 Since the work got split into a lot of small topic branches, I wanted this final post to act as a single place to reference all the final merge requests (MRs) and their GitLab links. I also wanted to summarize the work done in each MR so you can get a quick overview of the project.
 
@@ -169,7 +169,7 @@ After setting up the baseline in MR !35, I split the cleanup into three levels s
 
 ## Final Thoughts
 
-This project touched almost every part of the LibreHealth EHR Laravel application: the framework upgrade, dependency hygiene, role-based security testing, static and dynamic analysis, risk scoring, vulnerability fixes, and contributor docs. Splitting everything into focused topic branches to make the review process easy.
+This project touched almost every part of the LibreHealth EHR Laravel application the framework upgrade, dependency hygiene, role-based security testing, static and dynamic analysis, risk scoring, vulnerability fixes, and contributor docs. Splitting everything into focused topic branches to make the review process easy.
 
 The coolest outcome for me is that the project now has a working automated security pipeline that can be extended later. New vulnerabilities can be caught by Composer Audit, PHPStan/Larastan, and OWASP ZAP; normalized and scored by the security engine; and blocked at the MR gate when they cross the risk threshold.
 
